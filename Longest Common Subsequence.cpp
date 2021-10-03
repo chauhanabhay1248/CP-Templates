@@ -1,4 +1,5 @@
-vector<vector<int>> dp(1050, vector<int>(1050, 0));
+// LCS
+vector<vector<int>> dp(1050, vector<int>(1050, 0)); // -1 for recursive, 0 for iterative
 
 void lcs(string &a, string &b, int n, int m) {
 //    if (dp[n][m] != -1) {

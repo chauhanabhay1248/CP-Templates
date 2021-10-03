@@ -1,3 +1,4 @@
+//Power Modulus [a ^ b % mod]
 int powermod(int a, int b) {
     int ans = 1;
     while (b) {

@@ -1,3 +1,4 @@
+//Segmented Sieve [add sieve above]
 void segSieve(int l, int r) {
     vector<bool> mrk(r - l + 1, true);
     for (auto x: pr) {

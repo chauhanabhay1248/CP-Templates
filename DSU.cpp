@@ -1,3 +1,4 @@
+// Disjoint Set Union
 struct DSU {
     vector<int> par;
     vector<int> sze;

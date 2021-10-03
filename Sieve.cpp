@@ -1,8 +1,9 @@
+// Sieve
 int N = 1e7 + 7;
-vector<int> pr;
-//vector<int> fcnt;
-vector<bool> prime;
-vector<int> spf;
+vector<int> pr; // store all primes till N
+//vector<int> fcnt; // factor count of each number
+vector<bool> prime; // true for prime numbers
+vector<int> spf; // smallest prime factor
 
 void sieve() {
     prime.assign(N, true);

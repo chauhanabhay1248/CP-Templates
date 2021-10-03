@@ -4,6 +4,7 @@ vector<int> fact;
 vector<int> invfact;
 vector<int> inv;
 
+// Number Inverse
 void numInv() {
     inv.resize(N);
     inv[0] = 1;
@@ -13,6 +14,7 @@ void numInv() {
     }
 }
 
+// Factorial Inverse
 void factInv() {
     invfact.resize(N);
     invfact[0] = 1;
@@ -22,6 +24,7 @@ void factInv() {
     }
 }
 
+// Factorial
 void fact() {
     fact.resize(N);
     fact[0] = 1;
@@ -31,6 +34,7 @@ void fact() {
     }
 }
 
+// nCr [n! / (r! * (n - r)!)]
 int nCr(int n, int r) {
     if (r > n) {
         return 0;
