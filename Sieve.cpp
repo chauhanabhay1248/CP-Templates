@@ -1,3 +1,4 @@
+/* Abhay Singh Chauhan */
 // Sieve
 int N = 1e7 + 7;
 vector<int> pr; // store all primes till N
